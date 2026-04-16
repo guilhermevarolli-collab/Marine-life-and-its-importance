@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SQL-CSS-and-HTML-Tutorials</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+       <h1>Welcome to CSS</h1>
+   </header>
 
+   <nav>
+       <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="page2.html">HTML Tutorial</a></li>
+           <li><a href="page4.html">SQL Tutorial</a></li>
+       </ul>
+   </nav>
+
+   <main>
+      <img src="image folder/css page image 1.webp" 
+           alt="A visual example showing the dramatic difference between a simple, unstyled HTML page and the same page after a complex CSS" 
+           style="width:800px;height:400px; float:left; margin-right:20px;">
+
+      <section>
+          <h3>CSS: Bringing the Web to Life</h3>
+          <p>
+             If HTML provides the structure, CSS (Cascading Style Sheets) provides the beauty, organization, and visual flair.
+             CSS is a stylesheet language used to describe the presentation of a document written in HTML or XML, including colors,
+             layouts, fonts, and the positioning of elements.
+
+             The fundamental purpose of CSS is to separate the content (HTML) from the presentation (CSS).
+             This separation is key to efficient web development, allowing you to update the entire look and feel of a website simply
+             by modifying a few lines of CSS code, without touching the underlying HTML structure.
+          </p>
+      </section>
+
+      <p>The most crucial architectural concept behind CSS is the separation of concerns—keeping the content (HTML) completely isolated from the style (CSS). 
+         This separation is key to efficient web development, offering massive benefits. By modifying a single CSS file, developers can instantly update the entire visual theme of a large website, ensuring consistency and significantly improving maintainability. 
+         This practice also results in cleaner HTML, which boosts performance and aids Search Engine Optimization (SEO).
+      </p>
+
+      <section>
+          <h3>Understanding the Cascade and Selectors</h3>
+          <p>The "C" in CSS stands for Cascading, which defines how styles are prioritized when conflicts occur.
+             Styles can come from multiple sources (browser default, user, and your own stylesheet).
+             The cascade uses a specific set of rules (Specificity, Importance, and Source Order) to determine which style declaration ultimately wins.
+
+             The core of writing CSS is the use of selectors. These are patterns used to select the elements you want to style.
+          </p>
+
+          <ul>
+             <li><strong>Element Selector:</strong> <code>p { color: blue; }</code> (Selects all paragraph tags)</li>
+             <li><strong>Class Selector:</strong> <code>.btn-primary { background: green; }</code> (Selects elements with the class attribute btn-primary)</li>
+             <li><strong>ID Selector:</strong> <code>#main-header { font-size: 24px; }</code> (Selects the single element with the ID main-header)</li>
+          </ul>
+
+          <p>This cascading system ensures that styling is predictable and manageable. 
+             Developers can set broad, general styles for the entire document (e.g., default font on the <code>&lt;body&gt;</code>) and then confidently override them with highly specific styles for individual elements, creating a cohesive and well-organized visual design.
+          </p>
+      </section>
+
+      <img src="image folder/css page image 2.jpg" 
+           alt="A diagram illustrating the CSS Box Model (Content, Padding, Border, Margin) with labeled arrows." 
+           style="width:730px;height:400px; float:right; margin-right:20px;">
+
+      <section>
+          <h3>Layouts: The Box Model</h3>
+          <p>
+             Every element rendered by a browser, whether it's a paragraph or an image, is treated as a rectangular Box.
+             Understanding the CSS Box Model is essential for controlling layout. The model consists of four layers, from the inside out:
+
+             <br>
+             <strong>Content:</strong> The actual text or image.<br>
+             <strong>Padding:</strong> The space between the content and the border.<br>
+             <strong>Border:</strong> The line that surrounds the padding and content.<br>
+             <strong>Margin:</strong> The clear space outside the border, separating the element from other elements.
+          </p>
+
+          <ul>
+              <li>CSS allows precise control of spacing, size, and relationship between elements.</li>
+              <li>Techniques include Flexbox and Grid for advanced layouts.</li>
+              <li>CSS can also handle responsiveness using media queries.</li>
+          </ul>
+      </section>
+
+      <p>CSS is a vast and continuously evolving language.
+         While initially simple to grasp, it offers deep control over interactivity through transitions, animations,
+         and responsive design features like media queries.
+         By separating concerns, you create code that is easier to maintain, faster to load, and adaptable to any screen size— from mobile phones to large desktop monitors.
+      </p>
+
+      <center><p>If you want to really understand well how CSS works, there is a video here below that will explain deepely almost every basic CSS that you'll need to know</p></center>
+
+      <iframe width="1200" height="500" 
+              src="https://www.youtube.com/embed/yfoY53QXEnI"
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen>
+      </iframe>
+      
+   <center>
+      <p>Now that you see everything, put it in practice all the CSS that you learned!</p>
+      <a href="https://www.w3schools.com/css/css_quiz.asp">Try out everything that you learned!</a> 
+   </center>
+      
+   </main>
+
+   <footer>
+       <p> &copy; 2025 SQL, CSS, and HTML Tutorials</p>
+   </footer>
+</body>
+</html>
