@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SQL-CSS-and-HTML-Tutorials</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+       <h1>Welcome to SQL</h1>
+   </header>
 
+   <nav>
+       <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="page2.html">HTML Tutorial</a></li>
+           <li><a href="page3.html">CSS Tutorial</a></li>
+       </ul>
+   </nav>
+
+   <main>
+      <section>
+          <h3>SQL: The Language of Data Management</h3>
+          <p>
+              While HTML and CSS build the face of the web (the front-end), SQL (Structured Query Language) is the essential tool
+              for managing and interacting with the data on the back-end. SQL is the standard language for relational database
+              management systems (RDBMS). It is used to perform tasks such as updating, retrieving, creating, and deleting data
+              from a database.
+
+              Think of a database as a massive, organized filing cabinet, and SQL as the language you use to ask precise questions
+              to retrieve, insert, or change information efficiently and securely.
+          </p>
+      </section>
+
+      <img src="image folder/sql page image 1.jpg"
+           alt="The concept of a Database Table (rows and columns)"
+           style="width:1200px;height:400px;">
+
+      <section>
+          <h3>The Four Fundamental Commands</h3>
+          <p>
+              SQL is categorized into different types of commands, but developers primarily focus on DML (Data Manipulation Language).
+              The most crucial operations—often summarized by the acronym CRUD (Create, Read, Update, Delete)—are executed using four
+              main keywords:
+          </p>
+
+          <ul>
+              <li><strong>SELECT:</strong> Used to Read (retrieve) data from the database. (The most common command)</li>
+              <li><strong>INSERT:</strong> Used to Create (add) new records (rows) into a table</li>
+              <li><strong>UPDATE:</strong> Used to Update (modify) existing records in a table</li>
+              <li><strong>DELETE:</strong> Used to Delete existing records from a table</li>
+          </ul>
+      </section>
+
+      <section>
+          <h3>The Power of the SELECT Command</h3>
+          <p>
+              The <code>SELECT</code> command is the main tool for getting data out of a database, acting as the foundation for nearly all SQL operations. 
+              You use it to precisely specify which columns you need (e.g., <code>SELECT name, email</code>), avoiding unnecessary data transfer. 
+              To narrow down the results, the powerful <code>WHERE</code> clause filters rows based on complex criteria (e.g., <code>WHERE age > 30 AND region = 'East'</code>). 
+              Finally, the <code>ORDER BY</code> clause allows you to sort the output in a meaningful way, arranging results by one or more columns in ascending (<code>ASC</code>) or descending (<code>DESC</code>) order for presentation or further processing.
+          </p>
+      </section>
+
+      <img src="image folder/sql page image 2.png"
+           alt="A graphic illustrating the concept of a JOIN operation"
+           style="width:500px;height:700px; float:left; margin-right:20px;">
+
+      <section>
+          <h3>Linking Data with JOINs</h3>
+          <p>
+              Databases are designed to be efficient by storing related pieces of information in separate tables, a process called normalization. 
+              <code>JOIN</code>s are essential commands that temporarily link these tables based on matching column values (foreign keys) to reconstruct a comprehensive view of the data. 
+              The most common type is the <code>INNER JOIN</code>, which only returns rows where a match exists in both tables, ensuring you only see valid, linked data. 
+              Understanding <code>LEFT</code>, <code>RIGHT</code>, and <code>FULL</code> joins is also critical for handling cases where you need data even if a match doesn't exist in one table.
+          </p>
+      </section>
+
+      <section>
+          <h3>Summarizing Data</h3>
+          <p>
+              SQL is highly effective for performing advanced data aggregation and analysis. 
+              Aggregate functions like <code>SUM()</code>, <code>AVG()</code>, <code>MIN()</code>, <code>MAX()</code>, and <code>COUNT()</code> perform mathematical calculations across sets of rows. 
+              To apply these calculations to specific subsets of data, you use the <code>GROUP BY</code> clause. 
+              This partitions the result set into groups based on the unique values in one or more columns (e.g., grouping sales by region to find the average sale amount per region), providing valuable business insights.
+          </p>
+      </section>
+
+      <section>
+          <h3>SQL's Role</h3>
+          <p>
+              SQL's influence is pervasive; it is not just a tool for small database tasks but the universal language for querying and manipulating data in almost all large-scale commercial and scientific applications. 
+              Its consistent, declarative nature makes it indispensable for managing the transactional integrity of banking and e-commerce systems, powering business intelligence, and facilitating complex data analysis.
+              Because the core syntax and relational model are largely unchanged across variants (like T-SQL or PL/SQL), mastering SQL provides a foundational, highly transferable skill essential for any technology or data-centric career path.
+          </p>
+      </section>
+
+      <section>
+          <h3>Conclusion</h3>
+          <p>
+              In summary, SQL is much more than a database language; it is the critical link between raw information and usable business knowledge. 
+              By mastering commands like <code>SELECT</code>, leveraging the power of <code>JOIN</code>s to integrate dispersed data, and utilizing aggregation functions for deep analysis, you gain the ability to efficiently transform vast amounts of data into actionable insights, making SQL proficiency a requirement in the modern data-driven world.
+          </p>
+      </section>
+
+      <video width="1200" height="500" controls>
+          <source src="video folder/video 3.mp4" type="video/mp4">
+      </video>
+      
+   <center>
+      <p>Now that you see everything, put it in practice all the SQL that you learned!</p>
+      <a href="https://www.w3schools.com/sql/sql_quiz.asp">Try out everything that you learned!</a> 
+   </center>
+      
+   </main>
+
+   <footer>
+       <p> &copy; 2025 SQL, CSS, and HTML Tutorials</p>
+   </footer>
+</body>
+</html>
+
+</html>
