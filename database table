@@ -1,12 +1,1 @@
-create database That has a value with four columns each different type;
 
-create table Students (
-   PersonID int,
-   
-   
-);
-
-INSERT INTO Students ()
-VALUES ();
-
-   
