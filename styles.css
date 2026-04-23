@@ -267,3 +267,13 @@ footer {
   align-items: center;  
 }
 
+.center-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.center-form form {
+  margin: 0 auto;
+}
+
