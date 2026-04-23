@@ -270,7 +270,7 @@ footer {
 }
 
 .center-form form {
-  width: 6000px;
+  width: 320px;
   display: flex;
   flex-direction: column;
 }
