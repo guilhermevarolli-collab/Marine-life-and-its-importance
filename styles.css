@@ -129,13 +129,7 @@ tr:hover {
   background-color: #f1f5f9;
 }
 
-/* FORM */
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-  max-width: 500px;
-}
+
 
 input, textarea {
   padding: 0.9rem;
@@ -268,11 +262,14 @@ footer {
 }
 
 .center-form {
+  width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
 
 .center-form form {
-  margin: 0 auto;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
 }
