@@ -263,7 +263,7 @@ footer {
 
 
 .center-form {
-  width: 1000%;
+  max-width: 500px;
   display: flex;
   justify-content: center;
   margin-top: 4rem;
@@ -271,7 +271,7 @@ footer {
 }
 
 .center-form form {
-  width: 320px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
 }
