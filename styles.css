@@ -27,11 +27,38 @@ body {
 
 /* HEADER */
 header {
-  background: linear-gradient(to right, var(--primary), var(--secondary));
+  position: relative;
   color: white;
   padding: 2rem 1rem;
   text-align: center;
   border-bottom: 4px solid var(--accent);
+  overflow: hidden;
+}
+
+
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("image folder/page 1 image - 1.jpg") center/cover no-repeat;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+
+header::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  opacity: 0.85;
+  z-index: 1;
+}
+
+
+header * {
+  position: relative;
+  z-index: 2;
 }
 
 header h1 {
