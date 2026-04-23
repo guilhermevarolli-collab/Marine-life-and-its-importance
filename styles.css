@@ -256,15 +256,14 @@ footer {
 
 .wide-section {
   display: flex;
-  align-items: center;
+  align-items: stretch; 
   gap: 2rem;
 }
 
 .wide-section .center-text {
-  flex: 1;
-  max-width: none;
+  flex: 1;              
+  max-width: none;     
+  display: flex;
+  align-items: center;  
 }
 
-.wide-section .side-img {
-  width: 300px;
-}
