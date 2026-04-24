@@ -142,11 +142,10 @@ section {
 }
 
 section h2,
-h3 {
+section h3 {
   margin-bottom: 0.8rem;
   color: var(--secondary);
 }
-
 /* TEXT */
 p {
   margin-bottom: 1rem;
@@ -369,13 +368,13 @@ iframe {
 
 .img-medium {
   width: 500px;
-  height: 540px;
+  height: 560px;
   object-fit: cover;
 }
 
 .img-small {
   width: 370px;
-  height: 500px;
+  height: 530px;
   object-fit: cover;
 }
 
