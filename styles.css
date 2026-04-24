@@ -356,8 +356,8 @@ iframe {
 }
 
 .img-home {
-  width: 420px;   
-  height: auto;   
+  width: 500px;
+  height: 610px;
   object-fit: cover;
 }
 
