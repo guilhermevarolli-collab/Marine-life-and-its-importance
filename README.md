@@ -296,19 +296,19 @@ CSS: Mostly valid
 
 ### HTML
 
-Learned how to structure pages properly with semantic elements.
+I got much better at using semantic HTML. At first I used <img> for everything, but I learned how to make the structure more clearer and easier for me to navigate my code. Side images were tricky for me, but made sense once I understood to keep my style sheet better organized. Forms are more complex than I expected with all the input types and validation(and I still fill that i do not get it all hahaha).
 
 ### CSS
 
-Improved understanding of flexbox, spacing, and responsive design.
+I learned that padding and margin make huge difference in clean layouts, even more when you have a lot of images side by side with texts. 
 
 ### Design
 
-Learned how to keep layout consistent and clean.
+I learned that less is more - my first website was too busy compared to this one. Consistent spacing matters a lot when you have a lot of visual effects.
 
 ### Workflow
 
-Learned importance of testing and planning before coding.
+Learned importance of testing and planning before coding. 
 
 
 
@@ -350,14 +350,14 @@ I should've prepared myself better for this project, but, besides every stone in
 # Bibliography:
 
 ### Sources:
-https://oceanexplorer.noaa.gov/
-https://oceana.org/marine-life/
-https://education.nationalgeographic.org/resource/all-about-the-ocean/
-https://www.marinebio.org/?utm_source=chatgpt.com
+https://oceanexplorer.noaa.gov/  
+https://oceana.org/marine-life/  
+https://education.nationalgeographic.org/resource/all-about-the-ocean/  
+https://www.marinebio.org/?utm_source=chatgpt.com  
 
 ### Video and Images:
-Images - https://pixabay.com/
-Videos - https://www.youtube.com/watch?v=mQ10xBl8XMQ
-         https://www.youtube.com/watch?v=zvWOdW0dGxk
+Images - https://pixabay.com/  
+Videos - https://www.youtube.com/watch?v=mQ10xBl8XMQ  
+         https://www.youtube.com/watch?v=zvWOdW0dGxk  
 
 
