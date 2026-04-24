@@ -3,7 +3,7 @@
 **Name:** Guilherme Castro Varolli  
 **Project:** Marine Life and Its Importance  
 **Repository:** https://github.com/guilhermevarolli-collab/Marine-life-and-its-importance  
-**Live Site:** https://guilhermevarolli-collab.github.io/Marine-life-and-its-importance/index.html
+**Live Site:** https://guilhermevarolli-collab.github.io/Marine-life-and-its-importance/index.html  
 **Completation Date:** 24/04/2026
 
 ---
