@@ -193,10 +193,10 @@ project/
 ├── readme.md
 ├── maintenance.md
 
-Repository: https://github.com/guilhermevarolli-collab/Marine-life-and-its-importance
-Folders: https://github.com/guilhermevarolli-collab/Marine-life-and-its-importance/tree/main/image%20folder
-         https://github.com/guilhermevarolli-collab/Marine-life-and-its-importance/tree/main/video%20folder
-Website: https://guilhermevarolli-collab.github.io/Marine-life-and-its-importance/index.html
+Repository: https://github.com/guilhermevarolli-collab/Marine-life-and-its-importance  
+Folders: https://github.com/guilhermevarolli-collab/Marine-life-and-its-importance/tree/main/image%20folder  
+         https://github.com/guilhermevarolli-collab/Marine-life-and-its-importance/tree/main/video%20folder  
+Website: https://guilhermevarolli-collab.github.io/Marine-life-and-its-importance/index.html  
 
 ---
 
