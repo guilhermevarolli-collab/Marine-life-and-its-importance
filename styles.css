@@ -466,12 +466,7 @@ footer p {
   }
 }
 
-ol {
-  padding-left: 2rem;
-  list-style-position: outside;
-}
-
 li {
-  margin-bottom: 0.5rem;
-  padding-left: 0.3rem;
+  display: list-item;
+  list-style-position: outside;
 }
