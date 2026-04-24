@@ -172,6 +172,23 @@ li {
   text-align: center;
 }
 
+.facts-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.facts-layout img {
+  width: 450px;
+  height: auto;
+  object-fit: cover;
+}
+
+.facts-section {
+  flex: 1;
+}
+
 /* TABLE */
 table {
   width: 100%;
@@ -420,6 +437,15 @@ footer p {
     flex-direction: column;
     gap: 1rem;
   }
+
+  .facts-layout {
+    flex-direction: column;
+  }
+
+  .facts-layout img {
+    width: 100%;
+  }
+}
 
   header h1 {
     font-size: 1.6rem;
