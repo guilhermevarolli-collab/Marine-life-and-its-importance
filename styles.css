@@ -398,7 +398,8 @@ iframe {
 
 .img-coral {
   width: 320px;
-  height: 370px;
+  height: auto;
+  max-height: 300px;
   object-fit: cover;
 }
 
