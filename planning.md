@@ -107,7 +107,7 @@ Related content is grouped into sections, making it easier to read.
 
 ## 5. Page Layouts
 
-<img width="1152" height="2048" alt="image" src="https://github.com/user-attachments/assets/4ed0b896-0cbd-4e5e-9132-1d4b732c0da7" />
+<img width="1125" height="2000" alt="image" src="https://github.com/user-attachments/assets/606dbce2-67bb-495d-9795-996cd7708afa" />
 
 
 ### Page 1 (Desktop)
