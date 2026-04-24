@@ -467,4 +467,6 @@ footer p {
   }
 }
 
-
+.facts-section {
+  clear: both;
+}
