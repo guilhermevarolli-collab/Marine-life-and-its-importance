@@ -172,16 +172,27 @@ li {
 }
 
 .facts-layout .img-home {
+  width: 520px;
+  height: auto;
   flex-shrink: 0;
 }
 
 .facts-section {
   flex: 1;
-  text-align: justify;
+  min-width: 0;
+  text-align: left;
+  padding: 1.5rem;
 }
 
-.center-title {
-  text-align: center;
+.facts-section ol {
+  padding-left: 1.5rem;
+  margin-left: 0;
+}
+
+.facts-section li {
+  text-align: left;
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
 }
 
 /* TABLE */
