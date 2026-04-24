@@ -12,7 +12,7 @@
 
 I Build this website to talk about marine life and its importance. It includes five pages with information about ecosystems, threats, and how people can help. It uses neutral and bright colours to represent the oceans of our world, it also contains images, videos, a table, and a form along with the site informations.
 
-##2. How do the pages work together?
+## 2. How do the pages work together?
 
 The pages have a simple and continous structure, with a introduction, some deep in on the theme ("Why oceans matter", "marine life" and "Threats") and a way to the user interact with the website in the last page.
 
