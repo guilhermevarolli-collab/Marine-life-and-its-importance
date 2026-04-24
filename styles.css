@@ -376,7 +376,6 @@ iframe {
 .img-home {
   width: 650px;
   height: auto;
-  object-fit: cover;
 }
 
 .img-tall {
