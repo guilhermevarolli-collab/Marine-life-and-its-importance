@@ -165,6 +165,9 @@ li {
 /* FACTS SECTION */
 .facts-section {
   text-align: justify;
+}
+
+.facts-section {
   margin-left: 540px;
 }
 
