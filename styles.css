@@ -168,6 +168,10 @@ li {
   text-align: justify;
 }
 
+.facts-section {
+  margin-left: 10px;
+}
+
 .center-title {
   text-align: center;
 }
