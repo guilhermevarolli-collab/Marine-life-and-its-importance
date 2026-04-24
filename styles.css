@@ -438,15 +438,6 @@ footer p {
     gap: 1rem;
   }
 
-  .facts-layout {
-    flex-direction: column;
-  }
-
-  .facts-layout img {
-    width: 100%;
-  }
-}
-
   header h1 {
     font-size: 1.6rem;
   }
