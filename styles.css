@@ -466,3 +466,8 @@ footer p {
     height: 300px;
   }
 }
+
+.facts-wrapper {
+  max-width: 1000px;
+  margin: 2rem auto;
+}
